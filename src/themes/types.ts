@@ -14,6 +14,16 @@ export type BaseColorT = {
   primary800: string;
   primary900: string;
   secondary: string;
+  blueGray50: string;
+  blueGray100: string;
+  blueGray200: string;
+  blueGray300: string;
+  blueGray400: string;
+  blueGray500: string;
+  blueGray600: string;
+  blueGray700: string;
+  blueGray800: string;
+  blueGray900: string;
   text: {
     primary: string;
     secondary: string;
@@ -40,6 +50,8 @@ export type ComponentColorsT = {
   buttonSecondarySelectedText: string;
   buttonSecondarySpinnerForeground: string;
   buttonSecondarySpinnerBackground: string;
+  buttonDisabledFill: string;
+  buttonDisabledText: string;
 };
 
 export type ColorsT = BaseColorT & ComponentColorsT & {};

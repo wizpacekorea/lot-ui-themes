@@ -18,5 +18,8 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   buttonSecondarySelectedFill: themePrimitives.primary200,
   buttonSecondarySelectedText: themePrimitives.primary,
   buttonSecondarySpinnerForeground: themePrimitives.primary700,
-  buttonSecondarySpinnerBackground: themePrimitives.primary300
+  buttonSecondarySpinnerBackground: themePrimitives.primary300,
+
+  buttonDisabledFill: themePrimitives.blueGray100,
+  buttonDisabledText: themePrimitives.blueGray400
 });
