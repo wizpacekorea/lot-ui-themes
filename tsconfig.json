@@ -3,22 +3,18 @@
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
-    "strict": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "preserve",
-    "sourceMap": true,
-    "experimentalDecorators": true,
-    "noResolve": false,
     "noImplicitAny": false,
     "declaration": true,
-    "outDir": "./dist",
-    "declarationDir": "./dist",
-    "baseUrl": "src"
+    "declarationDir": "dist",
+    "baseUrl": "."
   },
-  "include": ["src/**/*"]
+  "include": ["src"]
 }
