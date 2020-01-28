@@ -1,4 +1,4 @@
-import { SizingT } from "themes/types";
+import { SizingT } from "../types";
 
 const sizing: SizingT = {
   scale0: "2px",

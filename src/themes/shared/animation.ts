@@ -1,4 +1,4 @@
-import { AnimationT } from "themes/types";
+import { AnimationT } from "../types";
 
 const animation: AnimationT = {
   timing100: "0.25s",

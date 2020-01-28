@@ -1,4 +1,4 @@
-import { FontT, TypographyT } from "themes/types";
+import { FontT, TypographyT } from "../types";
 
 const getFontStyles = (
   fontFamily: string,

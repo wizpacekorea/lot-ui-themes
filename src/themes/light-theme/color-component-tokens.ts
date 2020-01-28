@@ -1,5 +1,5 @@
 import colorTokens from "../shared/colors";
-import { ComponentColorsT } from "themes/types";
+import { ComponentColorsT } from "../types";
 
 export default (themePrimitives = colorTokens): ComponentColorsT => ({
   buttonPrimaryFill: themePrimitives.primary600,

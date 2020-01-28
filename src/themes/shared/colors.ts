@@ -1,4 +1,4 @@
-import { BaseColorT } from "themes/types";
+import { BaseColorT } from "../types";
 
 const colors: BaseColorT = {
   white: "#ffffff",

@@ -137,3 +137,15 @@ export type TypographyT = {
   DisplayMedium: FontT;
   DisplayLarge: FontT;
 };
+
+export type BreakpointsT = {
+  small: number;
+  medium: number;
+  large: number;
+};
+
+export type MediaQueryT = {
+  small: string;
+  medium: string;
+  large: string;
+};
