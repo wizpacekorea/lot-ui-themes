@@ -1,7 +1,9 @@
 import * as CSS from "csstype";
 
 export type BaseColorT = {
+  /* White */
   white: string;
+  /* Primary */
   primary: string;
   primary50: string;
   primary100: string;
@@ -13,7 +15,9 @@ export type BaseColorT = {
   primary700: string;
   primary800: string;
   primary900: string;
+  /* Secondary */
   secondary: string;
+  /* Blue Gray */
   blueGray50: string;
   blueGray100: string;
   blueGray200: string;
@@ -24,6 +28,9 @@ export type BaseColorT = {
   blueGray700: string;
   blueGray800: string;
   blueGray900: string;
+  /* Negative */
+  negative: string;
+  /* Text */
   text: {
     primary: string;
     secondary: string;
