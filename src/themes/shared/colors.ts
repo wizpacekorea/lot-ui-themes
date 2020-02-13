@@ -3,6 +3,13 @@ import { BaseColorT } from "../types";
 const colors: BaseColorT = {
   /* White */
   white: "#ffffff",
+  /* Black */
+  black: "#000000",
+  /* Surface */
+  surface: {
+    light: "#ffffff",
+    dark: "#242424"
+  },
   /* Primary */
   primary: "#14B67E",
   primary50: "#E2F4EC",
@@ -28,6 +35,17 @@ const colors: BaseColorT = {
   blueGray700: "#455A64",
   blueGray800: "#37474F",
   blueGray900: "#263238",
+  /* Gray */
+  gray50: "#fafafa",
+  gray100: "#f5f5f5",
+  gray200: "#eeeeee",
+  gray300: "#e0e0e0",
+  gray400: "#bdbdbd",
+  gray500: "#9e9e9e",
+  gray600: "#757575",
+  gray700: "#616161",
+  gray800: "#424242",
+  gray900: "#212121",
   /* Negative */
   negative: "#E61010",
   /* Text */
