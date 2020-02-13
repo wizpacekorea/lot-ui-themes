@@ -3,6 +3,13 @@ import * as CSS from "csstype";
 export type BaseColorT = {
   /* White */
   white: string;
+  /* Black */
+  black: string;
+  /* Surface */
+  surface: {
+    light: string;
+    dark: string;
+  };
   /* Primary */
   primary: string;
   primary50: string;
@@ -28,6 +35,17 @@ export type BaseColorT = {
   blueGray700: string;
   blueGray800: string;
   blueGray900: string;
+  /* Gray */
+  gray50: string;
+  gray100: string;
+  gray200: string;
+  gray300: string;
+  gray400: string;
+  gray500: string;
+  gray600: string;
+  gray700: string;
+  gray800: string;
+  gray900: string;
   /* Negative */
   negative: string;
   /* Text */
@@ -40,23 +58,87 @@ export type BaseColorT = {
 };
 
 export type ComponentColorsT = {
-  // Button
-  buttonPrimaryText: string;
-  buttonPrimaryFill: string;
-  buttonPrimaryActive: string;
-  buttonPrimaryHover: string;
-  buttonPrimarySelectedFill: string;
-  buttonPrimarySelectedText: string;
-  buttonPrimarySpinnerForeground: string;
-  buttonPrimarySpinnerBackground: string;
-  buttonSecondaryFill: string;
-  buttonSecondaryText: string;
-  buttonSecondaryHover: string;
-  buttonSecondaryActive: string;
-  buttonSecondarySelectedFill: string;
-  buttonSecondarySelectedText: string;
-  buttonSecondarySpinnerForeground: string;
-  buttonSecondarySpinnerBackground: string;
+  // Button: 네이밍 정의 -> {type} {color} Button {detail}
+  // TODO
+  // buttonPrimarySpinnerForeground: string;
+  // buttonPrimarySpinnerBackground: string;
+
+  /* Button - Contained - Default */
+  containedDefaultButtonText: string;
+  containedDefaultButtonFill: string;
+  containedDefaultButtonActive: string;
+  containedDefaultButtonHover: string;
+  containedDefaultButtonSelectedText: string;
+  containedDefaultButtonSelectedFill: string;
+
+  /* Button - Contained - Primary */
+  containedPrimaryButtonText: string;
+  containedPrimaryButtonFill: string;
+  containedPrimaryButtonActive: string;
+  containedPrimaryButtonHover: string;
+  containedPrimaryButtonSelectedText: string;
+  containedPrimaryButtonSelectedFill: string;
+
+  /* Button - Contained - Secondary */
+  containedSecondaryButtonText: string;
+  containedSecondaryButtonFill: string;
+  containedSecondaryButtonActive: string;
+  containedSecondaryButtonHover: string;
+  containedSecondaryButtonSelectedText: string;
+  containedSecondaryButtonSelectedFill: string;
+
+  /* Button - Outlined - Default */
+  outlinedDefaultButtonText: string;
+  outlinedDefaultButtonBorder: string;
+  outlinedDefaultButtonFill: string;
+  outlinedDefaultButtonActive: string;
+  outlinedDefaultButtonHover: string;
+  outlinedDefaultButtonSelectedText: string;
+  outlinedDefaultButtonSelectedFill: string;
+
+  /* Button - Outlined - Primary */
+  outlinedPrimaryButtonText: string;
+  outlinedPrimaryButtonBorder: string;
+  outlinedPrimaryButtonFill: string;
+  outlinedPrimaryButtonActive: string;
+  outlinedPrimaryButtonHover: string;
+  outlinedPrimaryButtonSelectedText: string;
+  outlinedPrimaryButtonSelectedFill: string;
+
+  /* Button - Outlined - Secondary */
+  // outlinedSecondaryButtonText: string;
+  // outlinedSecondaryButtonBorder: string;
+  // outlinedSecondaryButtonFill: string;
+  // outlinedSecondaryButtonActive: string;
+  // outlinedSecondaryButtonHover: string;
+  // outlinedSecondaryButtonSelectedText: string;
+  // outlinedSecondaryButtonSelectedFill: string;
+
+  /* Button - Text - Default */
+  textDefaultButtonText: string;
+  textDefaultButtonFill: string;
+  textDefaultButtonActive: string;
+  textDefaultButtonHover: string;
+  textDefaultButtonSelectedText: string;
+  textDefaultButtonSelectedFill: string;
+
+  /* Button - Text - Primary */
+  textPrimaryButtonText: string;
+  textPrimaryButtonFill: string;
+  textPrimaryButtonActive: string;
+  textPrimaryButtonHover: string;
+  textPrimaryButtonSelectedText: string;
+  textPrimaryButtonSelectedFill: string;
+
+  /* Button - Text - Secondary */
+  // textSecondaryButtonText: string;
+  // textSecondaryButtonFill: string;
+  // textSecondaryButtonActive: string;
+  // textSecondaryButtonHover: string;
+  // textSecondaryButtonSelectedText: string;
+  // textSecondaryButtonSelectedFill: string;
+
+  /* Button - Disabled */
   buttonDisabledFill: string;
   buttonDisabledText: string;
 };
