@@ -8,6 +8,7 @@ import {
 } from "./themes/types";
 
 export { default as LightTheme } from "./themes/light";
+export { default as DarkTheme } from "./themes/dark";
 
 export * from "./themes/types";
 
