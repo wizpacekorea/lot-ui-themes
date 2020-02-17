@@ -8,7 +8,7 @@ const colors: BaseColorT = {
   /* Surface */
   surface: {
     light: "#ffffff",
-    dark: "#242424"
+    dark: "#121212"
   },
   /* Primary */
   primary: "#14B67E",
@@ -47,14 +47,7 @@ const colors: BaseColorT = {
   gray800: "#424242",
   gray900: "#212121",
   /* Negative */
-  negative: "#E61010",
-  /* Text */
-  text: {
-    primary: "#263238",
-    secondary: "#455A64",
-    disabled: "#78909C",
-    hint: "#78909C"
-  }
+  negative: "#E61010"
 };
 
 export default colors;

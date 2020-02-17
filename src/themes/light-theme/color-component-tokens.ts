@@ -2,6 +2,14 @@ import colorTokens from "../shared/colors";
 import { ComponentColorsT } from "../types";
 
 export default (themePrimitives = colorTokens): ComponentColorsT => ({
+  /* Text */
+  text: {
+    primary: "#263238",
+    secondary: "#455A64",
+    disabled: "#78909C",
+    hint: "#78909C"
+  },
+
   /* Button - Contained - Default */
   containedDefaultButtonText: themePrimitives.blueGray900,
   containedDefaultButtonFill: "#EDEFF1",

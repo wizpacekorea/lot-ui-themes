@@ -48,13 +48,6 @@ export type BaseColorT = {
   gray900: string;
   /* Negative */
   negative: string;
-  /* Text */
-  text: {
-    primary: string;
-    secondary: string;
-    disabled: string;
-    hint: string;
-  };
 };
 
 export type ComponentColorsT = {
@@ -62,6 +55,14 @@ export type ComponentColorsT = {
   // TODO
   // buttonPrimarySpinnerForeground: string;
   // buttonPrimarySpinnerBackground: string;
+
+  /* Text */
+  text: {
+    primary: string;
+    secondary: string;
+    disabled: string;
+    hint: string;
+  };
 
   /* Button - Contained - Default */
   containedDefaultButtonText: string;
