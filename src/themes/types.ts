@@ -141,6 +141,15 @@ export type ComponentColorsT = {
   /* Button - Disabled */
   buttonDisabledFill: string;
   buttonDisabledText: string;
+
+  /* Menu */
+  menuFill: string;
+  menuFillHover: string;
+  menuFillSelected: string;
+  menuFontDefault: string;
+  menuFontDisabled: string;
+  menuFontHighlighted: string;
+  menuFontSelected: string;
 };
 
 export type ColorsT = BaseColorT & ComponentColorsT & {};

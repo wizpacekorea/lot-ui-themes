@@ -78,5 +78,14 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Button - Disabled */
   buttonDisabledFill: themePrimitives.blueGray100,
-  buttonDisabledText: themePrimitives.blueGray400
+  buttonDisabledText: themePrimitives.blueGray400,
+
+  /* Menu */
+  menuFill: themePrimitives.white,
+  menuFillHover: "#EDEFF1",
+  menuFillSelected: "#EDEFF1",
+  menuFontDefault: themePrimitives.blueGray900,
+  menuFontDisabled: themePrimitives.blueGray400,
+  menuFontHighlighted: themePrimitives.blueGray900,
+  menuFontSelected: themePrimitives.blueGray900
 });
