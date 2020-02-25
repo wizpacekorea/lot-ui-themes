@@ -58,11 +58,19 @@ export type ComponentColorsT = {
 
   /* Text */
   text: {
-    primary: string;
-    secondary: string;
+    primary: string; // High Emphasis
+    secondary: string; // Medium Emphasis
     disabled: string;
-    hint: string;
+    hint: string; // Same as Disabled
   };
+
+  /* Status */
+  negative: string; // Error
+  positive: string; // Rank Up
+
+  /* Line */
+  line: string;
+  outline: string;
 
   /* Button - Contained - Default */
   containedDefaultButtonText: string;
@@ -188,23 +196,6 @@ export type SizingT = {
   scale4800: string;
 };
 
-// export type FontT = {
-//   fontFamily: string;
-//   fontWeight:
-//     | "-moz-initial"
-//     | "inherit"
-//     | "initial"
-//     | "revert"
-//     | "unset"
-//     | "bold"
-//     | "normal"
-//     | "bolder"
-//     | "lighter"
-//     | number;
-//   fontSize: string;
-//   lineHeight: string | number;
-// };
-
 export type FontT = Pick<
   CSS.StandardProperties,
   "fontFamily" | "fontSize" | "fontWeight" | "lineHeight"
@@ -259,4 +250,17 @@ export type MediaQueryT = {
   small: string;
   medium: string;
   large: string;
+};
+
+export type ElevationStyleT = Pick<
+  CSS.StandardProperties,
+  "boxShadow" | "backgroundColor"
+>;
+
+export type ElevationT = {
+  elevation0: ElevationStyleT;
+  elevation100: ElevationStyleT;
+  elevation200: ElevationStyleT;
+  elevation300: ElevationStyleT;
+  elevation400: ElevationStyleT;
 };

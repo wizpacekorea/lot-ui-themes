@@ -10,6 +10,14 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
     hint: "#78909C"
   },
 
+  /* Status */
+  positive: themePrimitives.primary700,
+  negative: "#E61010",
+
+  /* Line */
+  line: themePrimitives.blueGray50,
+  outline: themePrimitives.blueGray100,
+
   /* Button - Contained - Default */
   containedDefaultButtonText: themePrimitives.blueGray900,
   containedDefaultButtonFill: "#EDEFF1",

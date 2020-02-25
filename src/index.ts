@@ -2,6 +2,7 @@ import {
   AnimationT,
   BreakpointsT,
   ColorsT,
+  ElevationT,
   MediaQueryT,
   SizingT,
   TypographyT
@@ -17,6 +18,7 @@ export type ThemeT = {
   animation: AnimationT;
   sizing: SizingT;
   typography: TypographyT;
+  elevation: ElevationT;
   colors: ColorsT; // TODO: set type.
   breakpoints: BreakpointsT;
   mediaQuery: MediaQueryT;
