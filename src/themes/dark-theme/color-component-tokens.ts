@@ -44,7 +44,7 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Button - Outlined - Default */
   outlinedDefaultButtonText: themePrimitives.gray300,
-  outlinedDefaultButtonBorder: themePrimitives.gray800,
+  outlinedDefaultButtonBorder: themePrimitives.gray700,
   outlinedDefaultButtonFill: "transparent",
   outlinedDefaultButtonActive: "rgba(224,224,224,0.2)",
   outlinedDefaultButtonHover: "rgba(224,224,224,0.1)",
