@@ -20,19 +20,19 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Button - Contained - Default */
   containedDefaultButtonText: themePrimitives.gray300,
-  containedDefaultButtonFill: themePrimitives.surface.dark,
-  containedDefaultButtonActive: "#4F4F4F",
-  containedDefaultButtonHover: "#3A3A3A",
+  containedDefaultButtonFill: "#323232",
+  containedDefaultButtonActive: "#666666",
+  containedDefaultButtonHover: "#4c4c4c",
   containedDefaultButtonSelectedText: themePrimitives.gray300,
-  containedDefaultButtonSelectedFill: "#4F4F4F",
+  containedDefaultButtonSelectedFill: "#666666",
 
   /* Button - Contained - Primary */
   containedPrimaryButtonText: themePrimitives.black,
   containedPrimaryButtonFill: themePrimitives.primary200,
-  containedPrimaryButtonActive: "#A2DBC1",
-  containedPrimaryButtonHover: "#96D7B9",
+  containedPrimaryButtonActive: "#BAE4D1",
+  containedPrimaryButtonHover: "#A2DBC1",
   containedPrimaryButtonSelectedText: themePrimitives.black,
-  containedPrimaryButtonSelectedFill: "#A2DBC1",
+  containedPrimaryButtonSelectedFill: "#BAE4D1",
 
   /* Button - Contained - Secondary */
   containedSecondaryButtonText: themePrimitives.white,
@@ -44,7 +44,7 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Button - Outlined - Default */
   outlinedDefaultButtonText: themePrimitives.gray300,
-  outlinedDefaultButtonBorder: themePrimitives.gray300,
+  outlinedDefaultButtonBorder: themePrimitives.gray800,
   outlinedDefaultButtonFill: "transparent",
   outlinedDefaultButtonActive: "rgba(224,224,224,0.2)",
   outlinedDefaultButtonHover: "rgba(224,224,224,0.1)",
@@ -94,7 +94,7 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Button - Disabled */
   buttonDisabledFill: "#323232",
-  buttonDisabledText: "#585858",
+  buttonDisabledText: themePrimitives.gray700,
 
   /* Menu */
   menuFill: "#272727",

@@ -25,7 +25,7 @@ const colors: BaseColorT = {
   /* Secondary */
   secondary: "#333644",
   /* Blue Gray */
-  blueGray50: "#ECEFF1",
+  blueGray50: "#EDEFF1",
   blueGray100: "#CFD8DC",
   blueGray200: "#B0BEC5",
   blueGray300: "#90A4AE",

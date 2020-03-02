@@ -20,7 +20,7 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Button - Contained - Default */
   containedDefaultButtonText: themePrimitives.blueGray900,
-  containedDefaultButtonFill: "#EDEFF1",
+  containedDefaultButtonFill: themePrimitives.blueGray50,
   containedDefaultButtonActive: "#C9CBCD",
   containedDefaultButtonHover: "#D4D6D8",
   containedDefaultButtonSelectedText: themePrimitives.blueGray900,
@@ -98,8 +98,8 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
 
   /* Menu */
   menuFill: themePrimitives.white,
-  menuFillHover: "#EDEFF1",
-  menuFillSelected: "#EDEFF1",
+  menuFillHover: themePrimitives.blueGray50,
+  menuFillSelected: themePrimitives.blueGray50,
   menuFontDefault: themePrimitives.blueGray900,
   menuFontDisabled: themePrimitives.blueGray400,
   menuFontHighlighted: themePrimitives.blueGray900,
