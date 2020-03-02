@@ -2,7 +2,8 @@ import { ElevationT } from "src/themes/types";
 
 const elevation: ElevationT = {
   elevation0: {
-    backgroundColor: "#121212"
+    backgroundColor: "#121212",
+    boxShadow: "none"
   },
   elevation100: {
     backgroundColor: "#1e1e1e",
