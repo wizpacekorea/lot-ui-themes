@@ -10,6 +10,15 @@ const colors: BaseColorT = {
     light: "#ffffff",
     dark: "#121212"
   },
+  /* Rank */
+  rank: {
+    goldText: "#CC7A09",
+    goldFill: "#FFD54A",
+    silverText: "#7C7C7C",
+    silverFill: "#D5D5D5",
+    bronzeText: "#71541E",
+    bronzeFill: "#BE9E61"
+  },
   /* Primary */
   primary: "#14B67E",
   primary50: "#E2F4EC",

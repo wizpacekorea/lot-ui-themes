@@ -10,6 +10,15 @@ export type BaseColorT = {
     light: string;
     dark: string;
   };
+  /* Rank */
+  rank: {
+    goldText: string;
+    goldFill: string;
+    silverText: string;
+    silverFill: string;
+    bronzeText: string;
+    bronzeFill: string;
+  };
   /* Primary */
   primary: string;
   primary50: string;
