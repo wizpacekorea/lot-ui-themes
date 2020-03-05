@@ -54,9 +54,7 @@ const colors: BaseColorT = {
   gray600: "#757575",
   gray700: "#616161",
   gray800: "#424242",
-  gray900: "#212121",
-  /* Negative */
-  negative: "#E61010"
+  gray900: "#212121"
 };
 
 export default colors;

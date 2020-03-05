@@ -55,8 +55,6 @@ export type BaseColorT = {
   gray700: string;
   gray800: string;
   gray900: string;
-  /* Negative */
-  negative: string;
 };
 
 export type ComponentColorsT = {
@@ -64,6 +62,13 @@ export type ComponentColorsT = {
   // TODO
   // buttonPrimarySpinnerForeground: string;
   // buttonPrimarySpinnerBackground: string;
+
+  /* Background */
+  background: string;
+
+  /* Surface */
+  surface50: string;
+  surface100: string;
 
   /* Text */
   text: {

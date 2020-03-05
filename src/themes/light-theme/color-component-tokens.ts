@@ -2,6 +2,13 @@ import colorTokens from "../shared/colors";
 import { ComponentColorsT } from "../types";
 
 export default (themePrimitives = colorTokens): ComponentColorsT => ({
+  /* Background */
+  background: "#ffffff",
+
+  /* Surface */
+  surface50: themePrimitives.blueGray50,
+  surface100: themePrimitives.blueGray100,
+
   /* Text */
   text: {
     primary: "#263238",
