@@ -2,29 +2,6 @@ import colorTokens from "../shared/colors";
 import { ComponentColorsT } from "../types";
 
 export default (themePrimitives = colorTokens): ComponentColorsT => ({
-  /* Background */
-  background: "#121212",
-
-  /* Surface */
-  surface50: "#242424",
-  surface100: "#323232",
-
-  /* Text */
-  text: {
-    primary: themePrimitives.gray300,
-    secondary: themePrimitives.gray500,
-    disabled: themePrimitives.gray700,
-    hint: themePrimitives.gray700
-  },
-
-  /* Status */
-  positive: themePrimitives.primary200,
-  negative: "#ef6363",
-
-  /* Line */
-  line: "#242424",
-  outline: themePrimitives.gray800,
-
   /* Button - Contained - Default */
   containedDefaultButtonText: themePrimitives.gray300,
   containedDefaultButtonFill: "#323232",
@@ -110,5 +87,12 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   menuFontDefault: themePrimitives.gray300,
   menuFontDisabled: themePrimitives.gray700,
   menuFontHighlighted: themePrimitives.gray300,
-  menuFontSelected: themePrimitives.gray300
+  menuFontSelected: themePrimitives.gray300,
+
+  /* Input */
+  inputTextPlaceholder: themePrimitives.gray500,
+  inputText: themePrimitives.gray300,
+  inputTextDisabled: themePrimitives.gray700,
+  inputBorder: themePrimitives.primary400,
+  inputFill: themePrimitives.gray800
 });

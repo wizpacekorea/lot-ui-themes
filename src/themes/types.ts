@@ -57,12 +57,7 @@ export type BaseColorT = {
   gray900: string;
 };
 
-export type ComponentColorsT = {
-  // Button: 네이밍 정의 -> {type} {color} Button {detail}
-  // TODO
-  // buttonPrimarySpinnerForeground: string;
-  // buttonPrimarySpinnerBackground: string;
-
+export type SemanticColorsT = {
   /* Background */
   background: string;
 
@@ -85,6 +80,13 @@ export type ComponentColorsT = {
   /* Line */
   line: string;
   outline: string;
+};
+
+export type ComponentColorsT = {
+  // Button: 네이밍 정의 -> {type} {color} Button {detail}
+  // TODO
+  // buttonPrimarySpinnerForeground: string;
+  // buttonPrimarySpinnerBackground: string;
 
   /* Button - Contained - Default */
   containedDefaultButtonText: string;
@@ -173,9 +175,25 @@ export type ComponentColorsT = {
   menuFontDisabled: string;
   menuFontHighlighted: string;
   menuFontSelected: string;
+
+  /* Input */
+  inputTextPlaceholder: string;
+  inputText: string;
+  inputTextDisabled: string;
+  inputBorder: string;
+  inputFill: string;
+
+  // inputTextDisabled: string;
+  // inputPlaceholder: string;
+  // inputPlaceholderDisabled: string;
+  // inputBorder: string;
+  // inputFill: string;
+  // inputFillActive: string;
+  // inputFillError: string;
+  // inputFillDisabled: string;
 };
 
-export type ColorsT = BaseColorT & ComponentColorsT & {};
+export type ColorsT = BaseColorT & ComponentColorsT & SemanticColorsT & {};
 
 export type AnimationT = {
   timing100: string;

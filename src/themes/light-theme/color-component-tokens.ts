@@ -2,29 +2,6 @@ import colorTokens from "../shared/colors";
 import { ComponentColorsT } from "../types";
 
 export default (themePrimitives = colorTokens): ComponentColorsT => ({
-  /* Background */
-  background: "#ffffff",
-
-  /* Surface */
-  surface50: themePrimitives.blueGray50,
-  surface100: themePrimitives.blueGray100,
-
-  /* Text */
-  text: {
-    primary: "#263238",
-    secondary: "#455A64",
-    disabled: "#78909C",
-    hint: "#78909C"
-  },
-
-  /* Status */
-  positive: themePrimitives.primary700,
-  negative: "#E61010",
-
-  /* Line */
-  line: themePrimitives.blueGray50,
-  outline: themePrimitives.blueGray100,
-
   /* Button - Contained - Default */
   containedDefaultButtonText: themePrimitives.blueGray900,
   containedDefaultButtonFill: themePrimitives.blueGray50,
@@ -110,5 +87,20 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   menuFontDefault: themePrimitives.blueGray900,
   menuFontDisabled: themePrimitives.blueGray400,
   menuFontHighlighted: themePrimitives.blueGray900,
-  menuFontSelected: themePrimitives.blueGray900
+  menuFontSelected: themePrimitives.blueGray900,
+
+  /* Input */
+  inputTextPlaceholder: themePrimitives.blueGray700,
+  inputText: themePrimitives.blueGray900,
+  inputTextDisabled: themePrimitives.blueGray400,
+  inputBorder: themePrimitives.primary400,
+  inputFill: themePrimitives.blueGray50
+  // inputTextDisabled: themePrimitives.blueGray400,
+  // inputPlaceholder: themePrimitives.blueGray700,
+  // inputPlaceholderDisabled: themePrimitives.blueGray400,
+  // inputBorder: themePrimitives.blueGray100,
+  // inputFill: "rgba(0, 0, 0, 0.06)",
+  // inputFillActive: "rgba(0, 0, 0, 0.16)",
+  // inputFillError: "#E61010",
+  // inputFillDisabled: themePrimitives.blueGray50
 });

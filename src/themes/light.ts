@@ -2,6 +2,7 @@ import animation from "./shared/animation";
 import sizing from "./shared/sizing";
 import getTypography from "./shared/typography";
 import colors from "./shared/colors";
+import getColorSemanticTokens from "./light-theme/color-semantic.tokens";
 import getColorComponentTokens from "./light-theme/color-component-tokens";
 import elevation from "./light-theme/elevation";
 import { ThemeT } from "../index";
@@ -18,6 +19,7 @@ export default {
   elevation,
   colors: {
     ...colors,
+    ...getColorSemanticTokens(),
     ...getColorComponentTokens()
   }
 } as ThemeT;
