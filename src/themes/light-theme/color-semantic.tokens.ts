@@ -4,6 +4,7 @@ import { SemanticColorsT } from "../types";
 export default (themePrimitives = colorTokens): SemanticColorsT => ({
   /* Background */
   background: "#ffffff",
+  backgroundInvert: "#121212",
 
   /* Surface */
   surface50: themePrimitives.blueGray50,

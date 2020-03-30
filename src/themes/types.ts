@@ -60,6 +60,7 @@ export type BaseColorT = {
 export type SemanticColorsT = {
   /* Background */
   background: string;
+  backgroundInvert: string;
 
   /* Surface */
   surface50: string;
