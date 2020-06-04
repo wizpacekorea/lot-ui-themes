@@ -24,5 +24,11 @@ export default (themePrimitives = colorTokens): SemanticColorsT => ({
 
   /* Line */
   line: themePrimitives.blueGray50,
-  outline: themePrimitives.blueGray100
+  outline: themePrimitives.blueGray100,
+
+  /* User Type */
+  userType: {
+    media: "#2086D4",
+    official: themePrimitives.primary700
+  }
 });

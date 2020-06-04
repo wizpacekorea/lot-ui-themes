@@ -81,6 +81,12 @@ export type SemanticColorsT = {
   /* Line */
   line: string;
   outline: string;
+
+  /* User Type */
+  userType: {
+    media: string;
+    official: string;
+  };
 };
 
 export type ComponentColorsT = {
