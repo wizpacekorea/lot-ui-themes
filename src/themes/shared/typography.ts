@@ -18,6 +18,9 @@ export const fontTokens = {
 };
 
 export default (themePrimitives = fontTokens): TypographyT => {
+  const caption:FontT = {
+    ...getFontStyles(themePrimitives.primaryFontFamily, "12px", 400, "16px")
+  }
   const font100: FontT = {
     ...getFontStyles(themePrimitives.primaryFontFamily, "12px", 400, "20px")
   };
@@ -91,6 +94,7 @@ export default (themePrimitives = fontTokens): TypographyT => {
   };
 
   return {
+    caption,
     font100,
     font150,
     font200,
@@ -109,6 +113,7 @@ export default (themePrimitives = fontTokens): TypographyT => {
     font1250,
     font1350,
     font1450,
+    Caption:caption,
     ParagraphXSmall: font100,
     ParagraphSmall: font200,
     ParagraphMedium: font300,

@@ -241,6 +241,7 @@ export type FontT = Pick<
 >;
 
 export type TypographyT = {
+  caption:FontT;
   font100: FontT;
   font150: FontT;
   font200: FontT;
@@ -259,6 +260,7 @@ export type TypographyT = {
   font1250: FontT;
   font1350: FontT;
   font1450: FontT;
+  Caption: FontT;
   ParagraphXSmall: FontT;
   ParagraphSmall: FontT;
   ParagraphMedium: FontT;
