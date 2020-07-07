@@ -198,6 +198,11 @@ export type ComponentColorsT = {
   // inputFillActive: string;
   // inputFillError: string;
   // inputFillDisabled: string;
+
+  /* Switch */
+  switchIndicator: string;
+  switchFill: string;
+  switchFillChecked: string;
 };
 
 export type ColorsT = BaseColorT & ComponentColorsT & SemanticColorsT & {};
@@ -241,7 +246,7 @@ export type FontT = Pick<
 >;
 
 export type TypographyT = {
-  caption:FontT;
+  caption: FontT;
   font100: FontT;
   font150: FontT;
   font200: FontT;

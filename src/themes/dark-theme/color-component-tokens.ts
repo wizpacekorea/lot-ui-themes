@@ -94,5 +94,10 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   inputText: themePrimitives.gray300,
   inputTextDisabled: themePrimitives.gray700,
   inputBorder: themePrimitives.primary400,
-  inputFill: themePrimitives.gray800
+  inputFill: themePrimitives.gray800,
+
+  /* Switch */
+  switchIndicator: themePrimitives.white,
+  switchFill: themePrimitives.gray600,
+  switchFillChecked: themePrimitives.primary700
 });

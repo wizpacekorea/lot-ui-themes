@@ -94,7 +94,7 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   inputText: themePrimitives.blueGray900,
   inputTextDisabled: themePrimitives.blueGray400,
   inputBorder: themePrimitives.primary400,
-  inputFill: themePrimitives.blueGray50
+  inputFill: themePrimitives.blueGray50,
   // inputTextDisabled: themePrimitives.blueGray400,
   // inputPlaceholder: themePrimitives.blueGray700,
   // inputPlaceholderDisabled: themePrimitives.blueGray400,
@@ -103,4 +103,9 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   // inputFillActive: "rgba(0, 0, 0, 0.16)",
   // inputFillError: "#E61010",
   // inputFillDisabled: themePrimitives.blueGray50
+
+  /* Switch */
+  switchIndicator: themePrimitives.white,
+  switchFill: themePrimitives.gray400,
+  switchFillChecked: themePrimitives.primary700
 });
