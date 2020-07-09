@@ -250,7 +250,9 @@ export type FontT = Pick<
 >;
 
 export type TypographyT = {
-  caption: FontT;
+  caption1: FontT;
+  caption2: FontT;
+  caption3: FontT;
   font100: FontT;
   font150: FontT;
   font200: FontT;
@@ -269,7 +271,9 @@ export type TypographyT = {
   font1250: FontT;
   font1350: FontT;
   font1450: FontT;
-  Caption: FontT;
+  Caption1: FontT;
+  Caption2: FontT;
+  Caption3: FontT;
   ParagraphXSmall: FontT;
   ParagraphSmall: FontT;
   ParagraphMedium: FontT;
