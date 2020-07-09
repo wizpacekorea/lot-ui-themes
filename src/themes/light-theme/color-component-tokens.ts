@@ -107,5 +107,9 @@ export default (themePrimitives = colorTokens): ComponentColorsT => ({
   /* Switch */
   switchIndicator: themePrimitives.white,
   switchFill: themePrimitives.gray400,
-  switchFillChecked: themePrimitives.primary700
+  switchFillChecked: themePrimitives.primary700,
+
+  /* Modal Bottom Sheet */
+  modalBottomSheetOverlay: "rgba(0,0,0,0.38)",
+  modalBottomSheetContentBackground: themePrimitives.white
 });

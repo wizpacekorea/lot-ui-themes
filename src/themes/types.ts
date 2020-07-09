@@ -203,6 +203,10 @@ export type ComponentColorsT = {
   switchIndicator: string;
   switchFill: string;
   switchFillChecked: string;
+
+  /* Modal Bottom Sheet */
+  modalBottomSheetOverlay: string;
+  modalBottomSheetContentBackground: string;
 };
 
 export type ColorsT = BaseColorT & ComponentColorsT & SemanticColorsT & {};
