@@ -12,10 +12,14 @@ export default (themePrimitives = colorTokens): SemanticColorsT => ({
 
   /* Text */
   text: {
-    primary: "#263238",
-    secondary: "#455A64",
-    disabled: "#78909C",
-    hint: "#78909C"
+    primary: themePrimitives.blueGray900,
+    secondary: themePrimitives.blueGray700,
+    disabled: themePrimitives.blueGray400,
+    hint: themePrimitives.blueGray400,
+    invertPrimary: themePrimitives.gray300,
+    invertSecondary: themePrimitives.gray500,
+    invertDisabled: themePrimitives.gray700,
+    invertHint: themePrimitives.gray700
   },
 
   /* Status */

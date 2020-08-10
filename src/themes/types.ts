@@ -72,6 +72,10 @@ export type SemanticColorsT = {
     secondary: string; // Medium Emphasis
     disabled: string;
     hint: string; // Same as Disabled
+    invertPrimary: string;
+    invertSecondary: string;
+    invertDisabled: string;
+    invertHint: string;
   };
 
   /* Status */
