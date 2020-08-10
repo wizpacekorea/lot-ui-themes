@@ -1,4 +1,4 @@
-import * as CSS from "csstype";
+import { CSSProperties } from "@emotion/serialize";
 
 export type BaseColorT = {
   /* White */
@@ -245,7 +245,7 @@ export type SizingT = {
 };
 
 export type FontT = Pick<
-  CSS.StandardProperties,
+  CSSProperties,
   "fontFamily" | "fontSize" | "fontWeight" | "lineHeight"
 >;
 
@@ -307,7 +307,7 @@ export type MediaQueryT = {
 };
 
 export type ElevationStyleT = Pick<
-  CSS.StandardProperties,
+  CSSProperties,
   "boxShadow" | "backgroundColor"
 >;
 
