@@ -54,7 +54,15 @@ const colors: BaseColorT = {
   gray600: "#757575",
   gray700: "#616161",
   gray800: "#424242",
-  gray900: "#212121"
+  gray900: "#212121",
+  /* Accent */
+  accent50: "#eff3fe",
+  accent100: "#d4e2fc",
+  accent200: "#a0bff8",
+  accent300: "#5b91f5",
+  accent400: "#276ef1",
+  accent500: "#1e54b7",
+  accent600: "#174291",
+  accent700: "#102c60"
 };
-
 export default colors;

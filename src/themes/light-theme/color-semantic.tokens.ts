@@ -25,6 +25,7 @@ export default (themePrimitives = colorTokens): SemanticColorsT => ({
   /* Status */
   positive: themePrimitives.primary700,
   negative: "#E61010",
+  accent: themePrimitives.accent400,
 
   /* Line */
   line: themePrimitives.blueGray50,
